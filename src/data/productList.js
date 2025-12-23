@@ -67,7 +67,7 @@ const productList = [
     productCategory: "Footwear",
     productPrice: 60,
     brandName: "Nike",
-    sizes: [38, 39, 40, 41, 42, 42, 43],
+    sizes: [38, 39, 40, 41, 42, 43],
     imageUrl: [
       "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8381b143-d46d-4354-b2e2-78a5b5917934/AIR+JORDAN+1+LOW+SE.png",
       "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/de9cd615-6925-4cc0-b9c2-f503d8c851c5/AIR+JORDAN+1+LOW+SE.png",

@@ -29,7 +29,7 @@ const SearchedProducts = () => {
               productImage={product.imageUrl[0]}
               productPrice={product.productPrice}
               brandName={product.brandName}
-              width="300px"
+              // width="300px"
             />
           </div>
         );

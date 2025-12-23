@@ -54,6 +54,8 @@
 
 .category-name {
   color: white;
+  font-weight: 600;
+  font-size: 2rem;
   opacity: 0;
   z-index: 10;
 }

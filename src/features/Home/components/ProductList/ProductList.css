@@ -1,6 +1,6 @@
 .product-list-main-container {
   width: 100%;
-  max-width: 1400px;
+  /* max-width: 1400px; */
   padding: 10px 30px;
   margin: 0 auto;
 }
@@ -17,7 +17,7 @@
   justify-content: flex-start;
   flex-wrap: wrap; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: center;
   gap: 30px;
 }

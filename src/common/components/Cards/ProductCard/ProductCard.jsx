@@ -5,7 +5,7 @@ const ProductCard = ({
   productName,
   productPrice,
   brandName,
-  width = "300px",
+  width = "100%",
 }) => {
   return (
     <div className="product-card-container" style={{ width: width }}>
