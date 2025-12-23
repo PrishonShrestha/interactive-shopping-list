@@ -14,7 +14,8 @@ const SearchedProducts = () => {
     (product) =>
       product.productName.toLowerCase().startsWith(param) ||
       product.productCategory.toLowerCase() === param ||
-      product.brandName.toLowerCase() === param
+      product.brandName.toLowerCase() === param ||
+      product.categoryID === Number(param)
   );
 
   return (

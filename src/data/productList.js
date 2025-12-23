@@ -4,6 +4,8 @@ const productList = [
     productID: 1001,
     productName: "adidas UltraBoost 22",
     productCategory: "Footwear",
+    categoryID: 101,
+
     productPrice: 180,
     brandName: "Nike",
     sizes: [38, 39, 40, 41, 42, 43, 44],
@@ -21,6 +23,8 @@ const productList = [
     productID: 2001,
     productName: "Nike Shox NZ",
     productCategory: "Footwear",
+    categoryID: 101,
+
     productPrice: 90,
     brandName: "Nike",
     sizes: [38, 39, 40, 41, 42],
@@ -39,6 +43,8 @@ const productList = [
     productID: 5001,
     productName: "Nike Daybreak SP",
     productCategory: "Footwear",
+    categoryID: 102,
+
     productPrice: 120,
     brandName: "Nike",
     sizes: [38, 39, 40, 41, 42],
@@ -56,6 +62,8 @@ const productList = [
   {
     productID: 6001,
     productName: "Air Jordan 1 Low SE",
+    categoryID: 102,
+
     productCategory: "Footwear",
     productPrice: 60,
     brandName: "Nike",
@@ -75,6 +83,8 @@ const productList = [
     productID: 1101,
     productName: "adidas Tiro 21 Track Pants",
     productCategory: "Apparel",
+    categoryID: 103,
+
     productPrice: 45,
     brandName: "Nike",
     sizes: [38, 39, 40, 41, 42],
@@ -93,6 +103,8 @@ const productList = [
     productID: 2201,
     productName: "Speedcat OG",
     productCategory: "Apparel",
+    categoryID: 103,
+
     productPrice: 270,
     brandName: "Puma",
     sizes: [38, 39, 40, 41, 42],
@@ -110,6 +122,8 @@ const productList = [
     productID: 3301,
     productName: "Club 5v5 Lux Wool",
     productCategory: "Footwear",
+    categoryID: 101,
+
     productPrice: 85,
     brandName: "Puma",
     sizes: [38, 39, 40, 41, 42],
@@ -128,6 +142,8 @@ const productList = [
     productID: 4401,
     productName: "1906R",
     productCategory: "Footwear",
+    categoryID: 103,
+
     productPrice: 55,
     brandName: "New Balance",
     sizes: [38, 39, 40, 41, 42],
@@ -146,6 +162,8 @@ const productList = [
     productID: 5501,
     productName: "9060",
     productCategory: "Apparel",
+    categoryID: 102,
+
     productPrice: 35,
     brandName: "New balance",
     sizes: [38, 39, 40, 41, 42],
@@ -164,6 +182,8 @@ const productList = [
     productID: 6601,
     productName: "ANTHONY EDWARDS 2 Shoes",
     productCategory: "Apparel",
+    categoryID: 101,
+
     productPrice: 30,
     brandName: "Adidas",
     sizes: [38, 39, 40, 41, 42],
@@ -180,6 +200,8 @@ const productList = [
     productID: 7701,
     productName: "Samba OG Shoes",
     productCategory: "Apparel",
+    categoryID: 102,
+
     productPrice: 100,
     brandName: "Adidas",
     sizes: [38, 39, 40, 41, 42],
