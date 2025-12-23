@@ -239,6 +239,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import useAddToCart from "../../features/ProductDetail/hooks/useAddToCart";
 import AddedNotificationCard from "../../common/components/Cards/Notification/AddedNotificationCard";
+import ZoomableImage from "../../common/components/ZoomableImage/ZoomableImage";
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -343,10 +344,15 @@ const ProductDetail = () => {
       <div className="detail-center_container">
         {/* LEFT */}
         <div className="detail-left_container">
+          {/* Main image */}
           <div className="large-image_container">
-            <img src={largeImage} alt="Product" />
+            <ZoomableImage
+              src={largeImage}
+              zoom={3} // how much to zoom on hover
+            />
           </div>
 
+          {/* Smaller Images */}
           <div className="small-image_container">
             {currentProduct.imageUrl.map((image, index) => (
               <img
